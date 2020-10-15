@@ -54,7 +54,7 @@ def show_madlib_form():
 
 
 @app.route('/madlib')
-def construct_madlib():
+def show_madlib():
 
     person = request.args.get("person")
     color = request.args.get("color")
